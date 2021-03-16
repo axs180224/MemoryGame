@@ -34,12 +34,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [ I added an extra button] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+![](https://www.loom.com/share/c8201dccde764e438b99937d28c4fb25)
 
 
 ## Reflection Questions
@@ -54,13 +54,13 @@ I got a little confused as I had never used these languages before, however I ju
 [I wonder how websites are able to talk to and retrive information from databses so fast? What makes succesful websites such as Amazon, Facebook, etc. so popular compared to others?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[I would add additional levels for example ]
+[I would add additional levels until the user loses. I would also like to keep track of the high score. Allow a two player method where one player can decide the pattern or they both compete against the computer.]
 
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Anand Saravanan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
