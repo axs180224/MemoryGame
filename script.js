@@ -31,7 +31,8 @@ const freqMap = {
   1: 261.6,
   2: 329.6,
   3: 392,
-  4: 466.2
+  4: 466.2,
+  5: 411
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -89,6 +90,27 @@ function guess(btn){
   console.log("user guessed: " + btn);
   if(!gamePlaying){
     return;
+    
+    if(pattern[guessCounter] == btn){
+    //Guess was correct!
+    if(guessCounter == progress){
+      if(progress == pattern.length - 1){
+        //GAME OVER: WIN!
+        winGame();
+      }else{
+        //Pattern correct. Add next segment
+        progress++;
+        playClueSequence();
+      }
+    }else{
+      //so far so good... check the next guess
+      guessCounter++;
+    }
+  }else{
+    //Guess was incorrect
+    //GAME OVER: LOSE!
+    loseGame();
+  }
   }
 
   // add game logic here
